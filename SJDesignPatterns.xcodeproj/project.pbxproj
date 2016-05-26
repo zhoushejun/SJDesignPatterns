@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		180EB3331CF72BAA004D15AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3321CF72BAA004D15AD /* main.m */; };
 		180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3351CF72BAA004D15AD /* AppDelegate.m */; };
-		180EB3391CF72BAA004D15AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3381CF72BAA004D15AD /* ViewController.m */; };
 		180EB33C1CF72BAB004D15AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EB33A1CF72BAB004D15AD /* Main.storyboard */; };
 		180EB33E1CF72BAB004D15AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EB33D1CF72BAB004D15AD /* Images.xcassets */; };
 		180EB3411CF72BAB004D15AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180EB33F1CF72BAB004D15AD /* LaunchScreen.xib */; };
 		180EB34D1CF72BAB004D15AD /* SJDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB34C1CF72BAB004D15AD /* SJDesignPatternsTests.m */; };
+		180EB35D1CF72CED004D15AD /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB35C1CF72CED004D15AD /* SJRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		180EB3321CF72BAA004D15AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		180EB3341CF72BAA004D15AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		180EB3351CF72BAA004D15AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		180EB3371CF72BAA004D15AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		180EB3381CF72BAA004D15AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		180EB33B1CF72BAB004D15AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180EB33D1CF72BAB004D15AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		180EB3401CF72BAB004D15AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		180EB3461CF72BAB004D15AD /* SJDesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJDesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180EB34B1CF72BAB004D15AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180EB34C1CF72BAB004D15AD /* SJDesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJDesignPatternsTests.m; sourceTree = "<group>"; };
+		180EB35B1CF72CED004D15AD /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
+		180EB35C1CF72CED004D15AD /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +81,7 @@
 		180EB32F1CF72BAA004D15AD /* SJDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				180EB3341CF72BAA004D15AD /* AppDelegate.h */,
-				180EB3351CF72BAA004D15AD /* AppDelegate.m */,
-				180EB3371CF72BAA004D15AD /* ViewController.h */,
-				180EB3381CF72BAA004D15AD /* ViewController.m */,
-				180EB33A1CF72BAB004D15AD /* Main.storyboard */,
-				180EB33D1CF72BAB004D15AD /* Images.xcassets */,
-				180EB33F1CF72BAB004D15AD /* LaunchScreen.xib */,
+				180EB3561CF72C4F004D15AD /* Classes */,
 				180EB3301CF72BAA004D15AD /* Supporting Files */,
 			);
 			path = SJDesignPatterns;
@@ -98,6 +92,9 @@
 			children = (
 				180EB3311CF72BAA004D15AD /* Info.plist */,
 				180EB3321CF72BAA004D15AD /* main.m */,
+				180EB3341CF72BAA004D15AD /* AppDelegate.h */,
+				180EB3351CF72BAA004D15AD /* AppDelegate.m */,
+				180EB33D1CF72BAB004D15AD /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +114,49 @@
 				180EB34B1CF72BAB004D15AD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180EB3561CF72C4F004D15AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				180EB35A1CF72C7B004D15AD /* Storyboard */,
+				180EB3571CF72C4F004D15AD /* Controllers */,
+				180EB3581CF72C4F004D15AD /* Model */,
+				180EB3591CF72C4F004D15AD /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		180EB3571CF72C4F004D15AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				180EB35B1CF72CED004D15AD /* SJRootViewController.h */,
+				180EB35C1CF72CED004D15AD /* SJRootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		180EB3581CF72C4F004D15AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180EB3591CF72C4F004D15AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180EB35A1CF72C7B004D15AD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				180EB33A1CF72BAB004D15AD /* Main.storyboard */,
+				180EB33F1CF72BAB004D15AD /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180EB3391CF72BAA004D15AD /* ViewController.m in Sources */,
 				180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */,
 				180EB3331CF72BAA004D15AD /* main.m in Sources */,
+				180EB35D1CF72CED004D15AD /* SJRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +290,7 @@
 				180EB33B1CF72BAB004D15AD /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		180EB33F1CF72BAB004D15AD /* LaunchScreen.xib */ = {
@@ -258,6 +299,7 @@
 				180EB3401CF72BAB004D15AD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SJRootViewController.h
 //  SJDesignPatterns
 //
 //  Created by zhoushejun on 16-5-26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SJRootViewController : UITableViewController
 
 @end
-
