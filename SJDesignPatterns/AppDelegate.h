@@ -11,8 +11,8 @@
  @brief         iOS设计模式
  @author		shejun.zhou
  @version		1.0 16-5-26  Creation
- 
  */
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
