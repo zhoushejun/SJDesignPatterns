@@ -26,10 +26,72 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="iOS设计模式" id="Bn6-XZ-pm7"/>
+                    <connections>
+                        <segue destination="o8Y-w0-NOm" kind="show" identifier="toSJFactoryViewControllerSegue" id="2yG-GA-bIb"/>
+                        <segue destination="oSJ-Df-CWu" kind="show" identifier="toSJAbstractFactoryViewControllerSegue" id="Iwb-OO-NlH"/>
+                        <segue destination="4If-js-2DG" kind="show" identifier="toSJStorageViewControllerSegue" id="VMw-cL-cK0"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrl-XL-AMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="330"/>
+            <point key="canvasLocation" x="474" y="970"/>
+        </scene>
+        <!--工厂模式-->
+        <scene sceneID="q5Q-Y1-Hz3">
+            <objects>
+                <viewController storyboardIdentifier="SJFactoryViewController" title="工厂模式" id="o8Y-w0-NOm" customClass="SJFactoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F51-AG-xrH"/>
+                        <viewControllerLayoutGuide type="bottom" id="N9s-By-XBb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gnH-Me-ZiO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icG-nQ-Rja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="102"/>
+        </scene>
+        <!--策略设计模式-->
+        <scene sceneID="K5e-Mt-ulO">
+            <objects>
+                <viewController storyboardIdentifier="SJStorageViewController" title="策略设计模式" id="4If-js-2DG" customClass="SJStorageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XR0-So-AgE"/>
+                        <viewControllerLayoutGuide type="bottom" id="jb1-NH-M5y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Ib-ga-Yxp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D2e-S0-41G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="1209"/>
+        </scene>
+        <!--抽象工厂模式-->
+        <scene sceneID="0wz-Uv-p6G">
+            <objects>
+                <viewController storyboardIdentifier="SJAbstractFactoryViewController" title="抽象工厂模式" id="oSJ-Df-CWu" customClass="SJAbstractFactoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l47-FG-Tig"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xa9-bX-ujF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x71-pN-HaX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xeq-pJ-x4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="666"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hgh-13-fs7">
@@ -48,7 +110,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRO-1O-Kcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="232" y="330"/>
+            <point key="canvasLocation" x="-44" y="970"/>
         </scene>
     </scenes>
 </document>

@@ -8,6 +8,10 @@
 
 #import "SJRootViewController.h"
 
+#import "SJAbstractFactoryViewController.h"
+#import "SJFactoryViewController.h"
+#import "SJStorageViewController.h"
+
 typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
     DesignPatternsTypeFactory, ///< 工厂
     DesignPatternsTypeAbstractFactory, ///< 抽象工厂
@@ -57,21 +61,17 @@ typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NSLog(@"%@", _dataSource[indexPath.row]);
     switch (indexPath.row) {
-        case DesignPatternsTypeFactory:
-        {
-        
+        case DesignPatternsTypeFactory: {
+            PUSH_VC_ANIMATED_MAIN(SJFactoryViewController);
         }
             break;
-        case DesignPatternsTypeAbstractFactory:
-        {
-        
+        case DesignPatternsTypeAbstractFactory: {
+            PUSH_VC_ANIMATED_MAIN(SJAbstractFactoryViewController);
         }
             break;
-        case DesignPatternsTypeStorage:
-        {
-        
+        case DesignPatternsTypeStorage: {
+            PUSH_VC_ANIMATED_MAIN(SJStorageViewController);
         }
             break;
         default:
