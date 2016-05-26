@@ -66,11 +66,49 @@
                     <view key="view" contentMode="scaleToFill" id="8Ib-ga-Yxp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CAK-uI-OCT" customClass="SJCustomTextField">
+                                <rect key="frame" x="16" y="187" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KbN-wP-EdM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4If-js-2DG" id="eYZ-lF-Px0"/>
+                                    <outlet property="inputValidator" destination="mj7-Ki-QwT" id="uwc-Hw-bLu"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dgp-DX-BDp" customClass="SJCustomTextField">
+                                <rect key="frame" x="16" y="262" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Yfg-hm-Aya"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="4If-js-2DG" id="Ccy-OA-t7g"/>
+                                    <outlet property="inputValidator" destination="L3A-4e-QGN" id="Ar7-J8-Cvc"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CAK-uI-OCT" secondAttribute="trailing" constant="16" id="4Nt-Gq-1aN"/>
+                            <constraint firstAttribute="centerY" secondItem="Dgp-DX-BDp" secondAttribute="centerY" constant="-37" id="CR7-vP-Wz6"/>
+                            <constraint firstAttribute="centerY" secondItem="CAK-uI-OCT" secondAttribute="centerY" constant="38" id="bsJ-Ao-3hA"/>
+                            <constraint firstAttribute="centerX" secondItem="Dgp-DX-BDp" secondAttribute="centerX" id="k45-ol-O13"/>
+                            <constraint firstAttribute="centerX" secondItem="CAK-uI-OCT" secondAttribute="centerX" id="mK3-KT-hqZ"/>
+                            <constraint firstItem="Dgp-DX-BDp" firstAttribute="leading" secondItem="8Ib-ga-Yxp" secondAttribute="leading" constant="16" id="qBt-TX-5Z2"/>
+                            <constraint firstItem="CAK-uI-OCT" firstAttribute="leading" secondItem="8Ib-ga-Yxp" secondAttribute="leading" constant="16" id="qV7-fz-Cbb"/>
+                            <constraint firstAttribute="trailing" secondItem="Dgp-DX-BDp" secondAttribute="trailing" constant="16" id="sZp-3Y-ixo"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D2e-S0-41G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="mj7-Ki-QwT" customClass="SJNumericInputValidator"/>
+                <customObject id="L3A-4e-QGN" customClass="SJAlphaInputValidator"/>
             </objects>
             <point key="canvasLocation" x="1316" y="1209"/>
         </scene>

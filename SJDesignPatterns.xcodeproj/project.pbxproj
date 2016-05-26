@@ -17,6 +17,8 @@
 		180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3731CF7393C004D15AD /* SJFactoryViewController.m */; };
 		180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3761CF7393C004D15AD /* SJRootViewController.m */; };
 		180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3791CF7393C004D15AD /* SJStorageViewController.m */; };
+		180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB37F1CF73A92004D15AD /* SJInputValidator.m */; };
+		180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3821CF74020004D15AD /* SJCustomTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		180EB3761CF7393C004D15AD /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
 		180EB3781CF7393C004D15AD /* SJStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJStorageViewController.h; sourceTree = "<group>"; };
 		180EB3791CF7393C004D15AD /* SJStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJStorageViewController.m; sourceTree = "<group>"; };
+		180EB37E1CF73A92004D15AD /* SJInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJInputValidator.h; sourceTree = "<group>"; };
+		180EB37F1CF73A92004D15AD /* SJInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJInputValidator.m; sourceTree = "<group>"; };
+		180EB3811CF74020004D15AD /* SJCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomTextField.h; sourceTree = "<group>"; };
+		180EB3821CF74020004D15AD /* SJCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +228,10 @@
 			children = (
 				180EB3781CF7393C004D15AD /* SJStorageViewController.h */,
 				180EB3791CF7393C004D15AD /* SJStorageViewController.m */,
+				180EB37E1CF73A92004D15AD /* SJInputValidator.h */,
+				180EB37F1CF73A92004D15AD /* SJInputValidator.m */,
+				180EB3811CF74020004D15AD /* SJCustomTextField.h */,
+				180EB3821CF74020004D15AD /* SJCustomTextField.m */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -329,9 +339,11 @@
 				180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */,
 				180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */,
 				180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */,
+				180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */,
 				180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */,
 				180EB37A1CF7393C004D15AD /* SJAbstractFactoryViewController.m in Sources */,
 				180EB3331CF72BAA004D15AD /* main.m in Sources */,
+				180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
