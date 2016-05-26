@@ -13,10 +13,10 @@
 		180EB33E1CF72BAB004D15AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EB33D1CF72BAB004D15AD /* Images.xcassets */; };
 		180EB3411CF72BAB004D15AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180EB33F1CF72BAB004D15AD /* LaunchScreen.xib */; };
 		180EB34D1CF72BAB004D15AD /* SJDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB34C1CF72BAB004D15AD /* SJDesignPatternsTests.m */; };
-		180EB35D1CF72CED004D15AD /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB35C1CF72CED004D15AD /* SJRootViewController.m */; };
-		180EB3601CF7335C004D15AD /* SJFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB35F1CF7335C004D15AD /* SJFactoryViewController.m */; };
-		180EB3631CF73378004D15AD /* SJAbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3621CF73378004D15AD /* SJAbstractFactoryViewController.m */; };
-		180EB3661CF7338B004D15AD /* SJStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3651CF7338B004D15AD /* SJStorageViewController.m */; };
+		180EB37A1CF7393C004D15AD /* SJAbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3701CF7393C004D15AD /* SJAbstractFactoryViewController.m */; };
+		180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3731CF7393C004D15AD /* SJFactoryViewController.m */; };
+		180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3761CF7393C004D15AD /* SJRootViewController.m */; };
+		180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3791CF7393C004D15AD /* SJStorageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +41,16 @@
 		180EB3461CF72BAB004D15AD /* SJDesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJDesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180EB34B1CF72BAB004D15AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180EB34C1CF72BAB004D15AD /* SJDesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJDesignPatternsTests.m; sourceTree = "<group>"; };
-		180EB35B1CF72CED004D15AD /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
-		180EB35C1CF72CED004D15AD /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
-		180EB35E1CF7335C004D15AD /* SJFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryViewController.h; sourceTree = "<group>"; };
-		180EB35F1CF7335C004D15AD /* SJFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryViewController.m; sourceTree = "<group>"; };
-		180EB3611CF73378004D15AD /* SJAbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAbstractFactoryViewController.h; sourceTree = "<group>"; };
-		180EB3621CF73378004D15AD /* SJAbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAbstractFactoryViewController.m; sourceTree = "<group>"; };
-		180EB3641CF7338B004D15AD /* SJStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJStorageViewController.h; sourceTree = "<group>"; };
-		180EB3651CF7338B004D15AD /* SJStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJStorageViewController.m; sourceTree = "<group>"; };
 		180EB3671CF73573004D15AD /* SJDesignPatterns.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJDesignPatterns.pch; sourceTree = "<group>"; };
 		180EB36C1CF73610004D15AD /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacro.h; sourceTree = "<group>"; };
+		180EB36F1CF7393C004D15AD /* SJAbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAbstractFactoryViewController.h; sourceTree = "<group>"; };
+		180EB3701CF7393C004D15AD /* SJAbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAbstractFactoryViewController.m; sourceTree = "<group>"; };
+		180EB3721CF7393C004D15AD /* SJFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryViewController.h; sourceTree = "<group>"; };
+		180EB3731CF7393C004D15AD /* SJFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryViewController.m; sourceTree = "<group>"; };
+		180EB3751CF7393C004D15AD /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
+		180EB3761CF7393C004D15AD /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
+		180EB3781CF7393C004D15AD /* SJStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJStorageViewController.h; sourceTree = "<group>"; };
+		180EB3791CF7393C004D15AD /* SJStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJStorageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,26 +133,11 @@
 			isa = PBXGroup;
 			children = (
 				180EB35A1CF72C7B004D15AD /* Storyboard */,
-				180EB3571CF72C4F004D15AD /* Controllers */,
+				180EB36D1CF7393C004D15AD /* Controllers */,
 				180EB3581CF72C4F004D15AD /* Model */,
 				180EB3591CF72C4F004D15AD /* View */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		180EB3571CF72C4F004D15AD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				180EB35B1CF72CED004D15AD /* SJRootViewController.h */,
-				180EB35C1CF72CED004D15AD /* SJRootViewController.m */,
-				180EB35E1CF7335C004D15AD /* SJFactoryViewController.h */,
-				180EB35F1CF7335C004D15AD /* SJFactoryViewController.m */,
-				180EB3611CF73378004D15AD /* SJAbstractFactoryViewController.h */,
-				180EB3621CF73378004D15AD /* SJAbstractFactoryViewController.m */,
-				180EB3641CF7338B004D15AD /* SJStorageViewController.h */,
-				180EB3651CF7338B004D15AD /* SJStorageViewController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		180EB3581CF72C4F004D15AD /* Model */ = {
@@ -192,6 +177,53 @@
 				180EB36C1CF73610004D15AD /* PublicMacro.h */,
 			);
 			path = Define;
+			sourceTree = "<group>";
+		};
+		180EB36D1CF7393C004D15AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				180EB36E1CF7393C004D15AD /* AbstractFactory */,
+				180EB3711CF7393C004D15AD /* Factory */,
+				180EB3741CF7393C004D15AD /* Root */,
+				180EB3771CF7393C004D15AD /* Storage */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		180EB36E1CF7393C004D15AD /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				180EB36F1CF7393C004D15AD /* SJAbstractFactoryViewController.h */,
+				180EB3701CF7393C004D15AD /* SJAbstractFactoryViewController.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		180EB3711CF7393C004D15AD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				180EB3721CF7393C004D15AD /* SJFactoryViewController.h */,
+				180EB3731CF7393C004D15AD /* SJFactoryViewController.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		180EB3741CF7393C004D15AD /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				180EB3751CF7393C004D15AD /* SJRootViewController.h */,
+				180EB3761CF7393C004D15AD /* SJRootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		180EB3771CF7393C004D15AD /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				180EB3781CF7393C004D15AD /* SJStorageViewController.h */,
+				180EB3791CF7393C004D15AD /* SJStorageViewController.m */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,12 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180EB3631CF73378004D15AD /* SJAbstractFactoryViewController.m in Sources */,
-				180EB3661CF7338B004D15AD /* SJStorageViewController.m in Sources */,
-				180EB3601CF7335C004D15AD /* SJFactoryViewController.m in Sources */,
+				180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */,
+				180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */,
+				180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */,
 				180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */,
+				180EB37A1CF7393C004D15AD /* SJAbstractFactoryViewController.m in Sources */,
 				180EB3331CF72BAA004D15AD /* main.m in Sources */,
-				180EB35D1CF72CED004D15AD /* SJRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
