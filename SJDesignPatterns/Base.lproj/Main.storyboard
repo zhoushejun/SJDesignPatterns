@@ -30,6 +30,7 @@
                         <segue destination="o8Y-w0-NOm" kind="show" identifier="toSJFactoryViewControllerSegue" id="2yG-GA-bIb"/>
                         <segue destination="oSJ-Df-CWu" kind="show" identifier="toSJAbstractFactoryViewControllerSegue" id="Iwb-OO-NlH"/>
                         <segue destination="4If-js-2DG" kind="show" identifier="toSJStorageViewControllerSegue" id="VMw-cL-cK0"/>
+                        <segue destination="Nf8-Vv-3tm" kind="show" identifier="toSJFlyweightViewControllerSegue" id="uZ9-7X-OeN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrl-XL-AMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,6 +55,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="icG-nQ-Rja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1316" y="102"/>
+        </scene>
+        <!--享元设计模式-->
+        <scene sceneID="6Bs-X6-mmb">
+            <objects>
+                <viewController storyboardIdentifier="SJFlyweightViewController" title="享元设计模式" id="Nf8-Vv-3tm" customClass="SJFlyweightViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hCR-ev-DnB"/>
+                        <viewControllerLayoutGuide type="bottom" id="kbo-0Y-O2D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5cI-li-HJh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSk-vo-dIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="793"/>
         </scene>
         <!--策略设计模式-->
         <scene sceneID="K5e-Mt-ulO">
@@ -110,7 +130,7 @@
                 <customObject id="mj7-Ki-QwT" customClass="SJNumericInputValidator"/>
                 <customObject id="L3A-4e-QGN" customClass="SJAlphaInputValidator"/>
             </objects>
-            <point key="canvasLocation" x="1316" y="1209"/>
+            <point key="canvasLocation" x="1316" y="793"/>
         </scene>
         <!--抽象工厂模式-->
         <scene sceneID="0wz-Uv-p6G">
@@ -129,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xeq-pJ-x4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1316" y="666"/>
+            <point key="canvasLocation" x="1726" y="102"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hgh-13-fs7">

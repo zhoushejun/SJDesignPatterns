@@ -19,6 +19,7 @@
 		180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3791CF7393C004D15AD /* SJStorageViewController.m */; };
 		180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB37F1CF73A92004D15AD /* SJInputValidator.m */; };
 		180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3821CF74020004D15AD /* SJCustomTextField.m */; };
+		188B51E51CF9B05000A586EC /* SJFlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		180EB37F1CF73A92004D15AD /* SJInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJInputValidator.m; sourceTree = "<group>"; };
 		180EB3811CF74020004D15AD /* SJCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomTextField.h; sourceTree = "<group>"; };
 		180EB3821CF74020004D15AD /* SJCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomTextField.m; sourceTree = "<group>"; };
+		188B51E31CF9B05000A586EC /* SJFlyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlyweightViewController.h; sourceTree = "<group>"; };
+		188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlyweightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,10 +191,11 @@
 		180EB36D1CF7393C004D15AD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				180EB3741CF7393C004D15AD /* Root */,
 				180EB36E1CF7393C004D15AD /* AbstractFactory */,
 				180EB3711CF7393C004D15AD /* Factory */,
-				180EB3741CF7393C004D15AD /* Root */,
 				180EB3771CF7393C004D15AD /* Storage */,
+				188B51E21CF9B02300A586EC /* Flyweight */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +238,15 @@
 				180EB3821CF74020004D15AD /* SJCustomTextField.m */,
 			);
 			path = Storage;
+			sourceTree = "<group>";
+		};
+		188B51E21CF9B02300A586EC /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				188B51E31CF9B05000A586EC /* SJFlyweightViewController.h */,
+				188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */,
+			);
+			path = Flyweight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188B51E51CF9B05000A586EC /* SJFlyweightViewController.m in Sources */,
 				180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */,
 				180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */,
 				180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */,
@@ -538,6 +552,7 @@
 				180EB3521CF72BAB004D15AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180EB3531CF72BAB004D15AD /* Build configuration list for PBXNativeTarget "SJDesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +561,7 @@
 				180EB3551CF72BAB004D15AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

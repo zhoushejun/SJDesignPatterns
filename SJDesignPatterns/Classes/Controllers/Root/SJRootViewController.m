@@ -11,12 +11,16 @@
 #import "SJAbstractFactoryViewController.h"
 #import "SJFactoryViewController.h"
 #import "SJStorageViewController.h"
+#import "SJFlyweightViewController.h"
 
 typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
     DesignPatternsTypeFactory, ///< 工厂
     DesignPatternsTypeAbstractFactory, ///< 抽象工厂
-    DesignPatternsTypeStorage ///< 策略
+    DesignPatternsTypeStorage,  ///< 策略
+    DesignPatternsTypeFlyweight ///< 享元
 };
+
+static NSInteger const DesignPatternsTypeCount = 4; ///< DesignPatternsType 总共有多少种设计模式
 
 @interface SJRootViewController ()
 
@@ -74,6 +78,10 @@ typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
             PUSH_VC_ANIMATED_MAIN(SJStorageViewController);
         }
             break;
+        case DesignPatternsTypeFlyweight: {
+            PUSH_VC_ANIMATED_MAIN(SJFlyweightViewController);
+        }
+            break;
         default:
             break;
     }
@@ -88,7 +96,7 @@ typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
     if (!_dataSource) {
         
         NSMutableArray *array = [NSMutableArray array];
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < DesignPatternsTypeCount; i++) {
             switch (i) {
                 case DesignPatternsTypeFactory: {
                     [array addObject:@"工厂模式"];
@@ -102,6 +110,9 @@ typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
                     [array addObject:@"策略设计模式"];
                 }
                     break;
+                case DesignPatternsTypeFlyweight: {
+                    [array addObject:@"享元设计模式"];
+                }
                 default:
                     break;
 
