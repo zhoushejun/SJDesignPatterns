@@ -20,6 +20,9 @@
 		180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB37F1CF73A92004D15AD /* SJInputValidator.m */; };
 		180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3821CF74020004D15AD /* SJCustomTextField.m */; };
 		188B51E51CF9B05000A586EC /* SJFlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */; };
+		18DB6C141CF9D25E00040157 /* SJFlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C131CF9D25E00040157 /* SJFlowerView.m */; };
+		18DB6C171CF9D27A00040157 /* SJFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C161CF9D27A00040157 /* SJFlowerFactory.m */; };
+		18DB6C1A1CF9D46E00040157 /* SJFlyweightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C191CF9D46E00040157 /* SJFlyweightView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		180EB3821CF74020004D15AD /* SJCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomTextField.m; sourceTree = "<group>"; };
 		188B51E31CF9B05000A586EC /* SJFlyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlyweightViewController.h; sourceTree = "<group>"; };
 		188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlyweightViewController.m; sourceTree = "<group>"; };
+		18DB6C121CF9D25E00040157 /* SJFlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlowerView.h; sourceTree = "<group>"; };
+		18DB6C131CF9D25E00040157 /* SJFlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlowerView.m; sourceTree = "<group>"; };
+		18DB6C151CF9D27A00040157 /* SJFlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlowerFactory.h; sourceTree = "<group>"; };
+		18DB6C161CF9D27A00040157 /* SJFlowerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlowerFactory.m; sourceTree = "<group>"; };
+		18DB6C181CF9D46E00040157 /* SJFlyweightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlyweightView.h; sourceTree = "<group>"; };
+		18DB6C191CF9D46E00040157 /* SJFlyweightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlyweightView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +254,12 @@
 			children = (
 				188B51E31CF9B05000A586EC /* SJFlyweightViewController.h */,
 				188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */,
+				18DB6C181CF9D46E00040157 /* SJFlyweightView.h */,
+				18DB6C191CF9D46E00040157 /* SJFlyweightView.m */,
+				18DB6C121CF9D25E00040157 /* SJFlowerView.h */,
+				18DB6C131CF9D25E00040157 /* SJFlowerView.m */,
+				18DB6C151CF9D27A00040157 /* SJFlowerFactory.h */,
+				18DB6C161CF9D27A00040157 /* SJFlowerFactory.m */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -349,12 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DB6C171CF9D27A00040157 /* SJFlowerFactory.m in Sources */,
 				188B51E51CF9B05000A586EC /* SJFlyweightViewController.m in Sources */,
 				180EB37B1CF7393C004D15AD /* SJFactoryViewController.m in Sources */,
+				18DB6C1A1CF9D46E00040157 /* SJFlyweightView.m in Sources */,
 				180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */,
 				180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */,
 				180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */,
 				180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */,
+				18DB6C141CF9D25E00040157 /* SJFlowerView.m in Sources */,
 				180EB37A1CF7393C004D15AD /* SJAbstractFactoryViewController.m in Sources */,
 				180EB3331CF72BAA004D15AD /* main.m in Sources */,
 				180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */,

@@ -17,10 +17,9 @@ typedef NS_ENUM(NSInteger, SJDesignPatternsType) {
     DesignPatternsTypeFactory, ///< 工厂
     DesignPatternsTypeAbstractFactory, ///< 抽象工厂
     DesignPatternsTypeStorage,  ///< 策略
-    DesignPatternsTypeFlyweight ///< 享元
+    DesignPatternsTypeFlyweight, ///< 享元
+    TotalNumberOfDesignPatternsTypes ///< DesignPatternsType 总共有多少种设计模式
 };
-
-static NSInteger const DesignPatternsTypeCount = 4; ///< DesignPatternsType 总共有多少种设计模式
 
 @interface SJRootViewController ()
 
@@ -96,7 +95,7 @@ static NSInteger const DesignPatternsTypeCount = 4; ///< DesignPatternsType 总�
     if (!_dataSource) {
         
         NSMutableArray *array = [NSMutableArray array];
-        for (int i = 0; i < DesignPatternsTypeCount; i++) {
+        for (int i = 0; i < TotalNumberOfDesignPatternsTypes; i++) {
             switch (i) {
                 case DesignPatternsTypeFactory: {
                     [array addObject:@"工厂模式"];
