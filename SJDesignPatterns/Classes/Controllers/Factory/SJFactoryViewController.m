@@ -7,8 +7,14 @@
 //
 
 #import "SJFactoryViewController.h"
+#import "SJFactoryColorView.h"
+#import "SJFactoryColorViewGenerator.h"
+#import "SJFactoryGrayColorViewGenerator.h"
+#import "SJFactoryOrangeColorViewGenerator.h"
 
 @interface SJFactoryViewController ()
+
+@property (nonatomic, strong) SJFactoryColorView *colorView;
 
 @end
 
@@ -17,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    SJFactoryColorViewGenerator *defaultColorView = [[SJFactoryOrangeColorViewGenerator alloc] init];
+    [self loadcolorViewWithGenerator:defaultColorView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +41,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)loadcolorViewWithGenerator:(SJFactoryColorViewGenerator *)generator {
+    [_colorView removeFromSuperview];
+    CGRect aFrame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    SJFactoryColorView *colorView = [generator colorViewWithFrame:aFrame];
+    [self setColorView:colorView];
+    [[self view] addSubview:_colorView];
+}
 
 @end

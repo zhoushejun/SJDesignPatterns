@@ -20,6 +20,12 @@
 		180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB37F1CF73A92004D15AD /* SJInputValidator.m */; };
 		180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB3821CF74020004D15AD /* SJCustomTextField.m */; };
 		188B51E51CF9B05000A586EC /* SJFlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */; };
+		18A64B801D73029300DB9B94 /* SJFactoryColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B7F1D73029300DB9B94 /* SJFactoryColorView.m */; };
+		18A64B831D73040A00DB9B94 /* SJFactoryOrangeColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B821D73040A00DB9B94 /* SJFactoryOrangeColorView.m */; };
+		18A64B861D73045700DB9B94 /* SJFactoryGrayColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B851D73045700DB9B94 /* SJFactoryGrayColorView.m */; };
+		18A64B891D730A4C00DB9B94 /* SJFactoryColorViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B881D730A4C00DB9B94 /* SJFactoryColorViewGenerator.m */; };
+		18A64B8C1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B8B1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.m */; };
+		18A64B8F1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A64B8E1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h.m */; };
 		18DB6C141CF9D25E00040157 /* SJFlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C131CF9D25E00040157 /* SJFlowerView.m */; };
 		18DB6C171CF9D27A00040157 /* SJFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C161CF9D27A00040157 /* SJFlowerFactory.m */; };
 		18DB6C1A1CF9D46E00040157 /* SJFlyweightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB6C191CF9D46E00040157 /* SJFlyweightView.m */; };
@@ -63,6 +69,18 @@
 		180EB3821CF74020004D15AD /* SJCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomTextField.m; sourceTree = "<group>"; };
 		188B51E31CF9B05000A586EC /* SJFlyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlyweightViewController.h; sourceTree = "<group>"; };
 		188B51E41CF9B05000A586EC /* SJFlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlyweightViewController.m; sourceTree = "<group>"; };
+		18A64B7E1D73029300DB9B94 /* SJFactoryColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryColorView.h; sourceTree = "<group>"; };
+		18A64B7F1D73029300DB9B94 /* SJFactoryColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryColorView.m; sourceTree = "<group>"; };
+		18A64B811D73040A00DB9B94 /* SJFactoryOrangeColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryOrangeColorView.h; sourceTree = "<group>"; };
+		18A64B821D73040A00DB9B94 /* SJFactoryOrangeColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryOrangeColorView.m; sourceTree = "<group>"; };
+		18A64B841D73045700DB9B94 /* SJFactoryGrayColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryGrayColorView.h; sourceTree = "<group>"; };
+		18A64B851D73045700DB9B94 /* SJFactoryGrayColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryGrayColorView.m; sourceTree = "<group>"; };
+		18A64B871D730A4C00DB9B94 /* SJFactoryColorViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryColorViewGenerator.h; sourceTree = "<group>"; };
+		18A64B881D730A4C00DB9B94 /* SJFactoryColorViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryColorViewGenerator.m; sourceTree = "<group>"; };
+		18A64B8A1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryOrangeColorViewGenerator.h; sourceTree = "<group>"; };
+		18A64B8B1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryOrangeColorViewGenerator.m; sourceTree = "<group>"; };
+		18A64B8D1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFactoryGrayColorViewGenerator.h; sourceTree = "<group>"; };
+		18A64B8E1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFactoryGrayColorViewGenerator.h.m; sourceTree = "<group>"; };
 		18DB6C121CF9D25E00040157 /* SJFlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlowerView.h; sourceTree = "<group>"; };
 		18DB6C131CF9D25E00040157 /* SJFlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFlowerView.m; sourceTree = "<group>"; };
 		18DB6C151CF9D27A00040157 /* SJFlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFlowerFactory.h; sourceTree = "<group>"; };
@@ -223,6 +241,18 @@
 			children = (
 				180EB3721CF7393C004D15AD /* SJFactoryViewController.h */,
 				180EB3731CF7393C004D15AD /* SJFactoryViewController.m */,
+				18A64B7E1D73029300DB9B94 /* SJFactoryColorView.h */,
+				18A64B7F1D73029300DB9B94 /* SJFactoryColorView.m */,
+				18A64B811D73040A00DB9B94 /* SJFactoryOrangeColorView.h */,
+				18A64B821D73040A00DB9B94 /* SJFactoryOrangeColorView.m */,
+				18A64B841D73045700DB9B94 /* SJFactoryGrayColorView.h */,
+				18A64B851D73045700DB9B94 /* SJFactoryGrayColorView.m */,
+				18A64B871D730A4C00DB9B94 /* SJFactoryColorViewGenerator.h */,
+				18A64B881D730A4C00DB9B94 /* SJFactoryColorViewGenerator.m */,
+				18A64B8A1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.h */,
+				18A64B8B1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.m */,
+				18A64B8D1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h */,
+				18A64B8E1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h.m */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -313,6 +343,7 @@
 				TargetAttributes = {
 					180EB32C1CF72BAA004D15AD = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6NLHX4X49M;
 					};
 					180EB3451CF72BAB004D15AD = {
 						CreatedOnToolsVersion = 6.1;
@@ -371,9 +402,15 @@
 				180EB37D1CF7393C004D15AD /* SJStorageViewController.m in Sources */,
 				180EB37C1CF7393C004D15AD /* SJRootViewController.m in Sources */,
 				180EB3801CF73A92004D15AD /* SJInputValidator.m in Sources */,
+				18A64B861D73045700DB9B94 /* SJFactoryGrayColorView.m in Sources */,
+				18A64B8C1D730AD000DB9B94 /* SJFactoryOrangeColorViewGenerator.m in Sources */,
 				180EB3361CF72BAA004D15AD /* AppDelegate.m in Sources */,
+				18A64B801D73029300DB9B94 /* SJFactoryColorView.m in Sources */,
+				18A64B831D73040A00DB9B94 /* SJFactoryOrangeColorView.m in Sources */,
 				18DB6C141CF9D25E00040157 /* SJFlowerView.m in Sources */,
+				18A64B891D730A4C00DB9B94 /* SJFactoryColorViewGenerator.m in Sources */,
 				180EB37A1CF7393C004D15AD /* SJAbstractFactoryViewController.m in Sources */,
+				18A64B8F1D730AED00DB9B94 /* SJFactoryGrayColorViewGenerator.h.m in Sources */,
 				180EB3331CF72BAA004D15AD /* main.m in Sources */,
 				180EB3831CF74020004D15AD /* SJCustomTextField.m in Sources */,
 			);
@@ -499,10 +536,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = SJDesignPatterns/SJDesignPatterns.pch;
 				INFOPLIST_FILE = SJDesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -510,10 +550,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = SJDesignPatterns/SJDesignPatterns.pch;
 				INFOPLIST_FILE = SJDesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
